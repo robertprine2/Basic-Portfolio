@@ -1,7 +1,59 @@
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	height: 100;
+	width: 500;
+}
+
 h2 {
 	color: #4aaaa5;
 }
 
 h3 {
 	color: #4aaaa5;
+}
+
+.heading {
+	background-color: #4aaaa5;
+	color: white;
+}
+
+#submit {
+	background-color: #4aaaa5;
+	color: white;
+}
+
+p {
+	color: #777777;
+}
+
+li{
+	color: #777777;
+}
+
+form {
+	color: #777777;
+}
+
+#mainHeader {
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+
+.content {
+	background-color: #ffffff;
+	border-color: #dddddd;
+}
+
+footer {
+	background-color: #666666;
+
+}
+
+#copyright {
+	color: #B9BFB6;
+}
+
+#background {
+	background-color: #eeeeee;
 }
