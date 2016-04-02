@@ -64,6 +64,23 @@ footer {
 	color: #B9BFB6;
 }
 
+
+
 #background {
-	background-color: #eeeeee;
+	width: 960px;
+}
+
+
+/* It seems as though this background image isn't working. :(*/
+
+body {
+	background-image: url("greybackground.png");
+}
+
+#sidebar {
+	width: 270px;
+}
+
+#maincontent {
+	width: 650px;
 }
