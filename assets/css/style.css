@@ -84,3 +84,17 @@ body {
 #maincontent {
 	width: 650px;
 }
+
+#familypic {
+	float: left;
+}
+
+#scroll {
+	width:600px;
+	height: 200px;
+	overflow: scroll;
+}
+
+.box {
+	width: 600px;
+}
