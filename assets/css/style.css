@@ -5,15 +5,18 @@
 }
 
 body {
-	width: 800px;
+	width: 960px;
 	margin: 0 auto;
 }
 
-/* It seems as though this background image isn't working. :( Also merge this with above body tag.*/
+/* It seems as though this background image isn't working. :( 
+	Also merge this with above body tag.
 
 body {
 	background-image: url("greybackground.png");
 }
+
+*/
 
 h1 {
 	background-color: #4aaaa5;
@@ -52,22 +55,26 @@ p {
 	background-color: #ffffff;
 	border-color: #cccccc;
 	display: inline;
-	margin-bottom: 30px;
-	height: 50px;
+	overflow: auto;
 }
 
 #name {
 	float: left;
 	padding: 20px;
 	margin-left: 50px;
+	margin-bottom: 0;
 }
 
 #pageselect {
 	float: left;
-	margin-left: 100px;
+	margin-left: 250px;
 	margin-top: 35px;
 	text-align: right;
 	height: 50px;
+}
+
+.pageLink {
+	text-decoration: none;
 }
 
 .content {
@@ -75,52 +82,69 @@ p {
 	border-color: #dddddd;
 }
 
-#maincontent {
-	width: 650px;
+/* I couldn't get the subtle backgrounds to work right with: 
+background-image:url(assets/images/greybackground.png);*/
+
+#background {
+	clear: both;
+	overflow: auto;
+	background: lightgrey;
+}
+
+/*Is 650px the total width including margins? Otherwise it is too long to fit next to eachother.*/
+
+#mainContent {
+	width: 550px;
+	float: left;
+	margin: 40px 10px 40px 50px;
+	padding: 15px;
+}
+
+.greyLine {
+	background: lightgrey;
+	height: 2px;
 }
 
 #sidebar {
-	width: 270px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 40px;
+	padding: 30px;
+	width: 170px;
+}
+
+.socialIcon {
+	margin-top: 20px;
+}
+
+#tealLine {
+	background-color: #4aaaa5;
+	height: 15px;
 }
 
 footer {
+	clear: both;
 	background-color: #666666;
+
 }
 
 #copyright {
 	color: #B9BFB6;
+	text-align: center;
+	margin-top: 0px;
+	padding: 40px;
+	font-size: 10px;
 }
 
 /*index.html*/
 
 #familypic {
+	clear: both;
 	float: left;
+	margin: 20px;
+
 }
 
-
-
-
-
-/*contact.html*/
-
-form {
-	color: #777777;
-}
-
-.box {
-	width: 600px;
-}
-
-#scroll {
-	width:600px;
-	height: 200px;
-	overflow: scroll;
-}
-
-#submit {
-	background-color: #4aaaa5;
-	color: white;
-}
 
 /*portfolio.html*/
 
@@ -131,7 +155,25 @@ form {
 }
 
 
+/*contact.html*/
 
+form {
+	color: #777777;
+}
+
+.box {
+	
+}
+
+#scroll {
+	height: 200px;
+	overflow: scroll;
+}
+
+#submit {
+	background-color: #4aaaa5;
+	color: white;
+}
 
 
 
