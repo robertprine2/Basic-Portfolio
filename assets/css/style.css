@@ -47,6 +47,10 @@ h3 {
 	font-family: "Georgia", Times, Times New Roman, serif;
 }
 
+a:hover {
+	color: orange;
+}
+
 p {
 	color: #777777;
 }
@@ -117,6 +121,15 @@ background-image:url(assets/images/greybackground.png);*/
 	margin-top: 20px;
 }
 
+.socialIcon:hover{
+	-webkit-transform:scale(1.5); 
+    -moz-transform:scale(1.5); 
+    -ms-transform:scale(1.5); 
+    -o-transform:scale(1.5); 
+     transform:scale(1.5);
+     z-index: +10;
+}
+
 #tealLine {
 	background-color: #4aaaa5;
 	height: 15px;
@@ -165,6 +178,16 @@ footer {
 	position: relative;
 	float: left;
 	margin: 30px;
+	transition: all 1s ease;
+}
+
+.image:hover {
+	-webkit-transform:scale(2); 
+    -moz-transform:scale(2); 
+    -ms-transform:scale(2); 
+    -o-transform:scale(2); 
+     transform:scale(2);
+     z-index: +10;
 }
 
 
