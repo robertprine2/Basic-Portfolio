@@ -7,6 +7,7 @@
 body {
 	width: 960px;
 	margin: 0 auto;
+	height: 100%;
 }
 
 /* It seems as though this background image isn't working. :( 
@@ -17,6 +18,13 @@ body {
 }
 
 */
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -101px;
+}
 
 h1 {
 	background-color: #4aaaa5;
@@ -135,10 +143,15 @@ background-image:url(assets/images/greybackground.png);*/
 	height: 15px;
 }
 
+.push {
+	height: 101px;
+	clear: both;
+}
+
 footer {
 	clear: both;
 	background-color: #666666;
-
+	height: 101px;
 }
 
 #copyright {
