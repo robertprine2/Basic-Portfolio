@@ -12,11 +12,9 @@ body {
 
 /* It seems as though this background image isn't working. :( 
 	Also merge this with above body tag.
-
 body {
 	background-image: url("greybackground.png");
 }
-
 */
 
 .wrapper {
@@ -229,34 +227,3 @@ form {
 	border: 0;
 	padding: 10px 25px 10px 25px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
