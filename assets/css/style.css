@@ -268,6 +268,9 @@ form {
 .box {
 	width: 510px;
 	margin: 10px 0px 10px 0px;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
 }
 
 #scroll {
@@ -275,6 +278,9 @@ form {
 	width: 510px;
 	margin: 10px 0px 10px 0px;
 	overflow: scroll;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
 }
 
 #submit {
