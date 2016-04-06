@@ -128,6 +128,13 @@ p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/* IT WON'T LET ME MAKE A CLASS IN THE SPAN. Vertical lines between nav bar links*/
+
+span {
+	color: #777777;
+	margin-left: 50px;
+}
+
 .pageLink {
 	text-decoration: none;
 }
@@ -141,6 +148,12 @@ p {
 	clear: both;
 	overflow: auto;
 	background-image: url(../images/greybackground.png);
+}
+
+img {
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.50);
 }
 
 /*Is 650px the total width including margins? Otherwise it is too long to fit next to eachother.*/
@@ -270,4 +283,5 @@ form {
 	border: 0;
 	padding: 10px 25px 10px 25px;
 	font-size: 18px;
+	cursor: pointer;
 }
