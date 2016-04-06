@@ -13,7 +13,7 @@ body {
 /* It seems as though this background image isn't working. :( 
 	Also merge this with above body tag.
 body {
-	background-image: url("greybackground.png");
+	background-image: url("assets/images/greybackground.png");
 }
 */
 
@@ -126,7 +126,7 @@ background-image:url(assets/images/greybackground.png);*/
 #background {
 	clear: both;
 	overflow: auto;
-	background: lightgrey;
+	background-image: url(../images/greybackground.png);
 }
 
 /*Is 650px the total width including margins? Otherwise it is too long to fit next to eachother.*/
