@@ -108,6 +108,11 @@ nav a:first-child {
 	border-left: 0 none;
 }
 
+#verticalLine {
+	border-right: 1px solid #efefef;
+	padding-right: 15px;
+}
+
 .dropdown a {
 	margin-left: 0;
 }
