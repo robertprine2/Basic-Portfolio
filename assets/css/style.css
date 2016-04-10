@@ -327,6 +327,10 @@ input[type=submit] {
 		float:none;
 		width:100%;
 	}
+
+	.work {
+		width: 95%;
+	}
 	
 }
 
@@ -340,10 +344,13 @@ input[type=submit] {
 		max-width: 100%;
 	}
 	
-
 	.auth-image {
 		float:left;
 		width:50%;
+	}
+
+	.work {
+		width: 45%;
 	}
 
 }
@@ -360,6 +367,10 @@ input[type=submit] {
 
 	.sidebar {
 		width: 40%;
+	}
+
+	.work {
+		width: 95%;
 	}
 
 }
